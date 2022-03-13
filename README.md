@@ -152,7 +152,7 @@ echo 'eval "$(pyenv init --path)"' >> ~/.zprofile
 echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 ```
 
-### 6. Ins`tall Poetry
+### 6. Install Poetry
 
 Poetry makes python packaging and dependency management easy and helps to ensure that
 the packages we need for our projects play nicely with eath other.
