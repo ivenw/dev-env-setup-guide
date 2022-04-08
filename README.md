@@ -94,21 +94,6 @@ plugins=( [plugins...] zsh-autosuggestions)
 ```
 
 
-#### 3b. Install Fira Code font
-
-A fantastic font for programming. Read more here [](https://github.com/tonsky/FiraCode)
-
-Run the following command in your Terminal:
-```bash
-brew tap homebrew/cask-fonts && brew install --cask font-fira-code
-```
-
-Updates are installed by running:
-```bash
-brew update && brew upgrade font-fira-code
-```
-
-
 ### 4. Install the GitHub CLI
 
 The GitHub CLI makes a lot of features from the web interface conveniently available
@@ -122,6 +107,12 @@ Login with your GitHub credentials.
 
 ```
 gh auth login
+```
+
+#### 4b. Install git credentials manager (GCM)
+```
+brew tap microsoft/git
+brew install --cask git-credential-manager-core
 ```
 
 
